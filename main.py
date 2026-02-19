@@ -14,8 +14,6 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", description="Bot de Antonin", intents=intents)
 # slash = SlashCommand(bot, sync_commands=True)
 
-
-
 # Le bot est lancé 
 @bot.event
 async def on_ready():
@@ -483,5 +481,8 @@ async def on_command_error(ctx, error):
         await ctx.send('Une erreur inattendue s\'est produite.')
         print(f'Erreur inattendue : {error}')
 
-# Launch the bot
-bot.run("MTIwNDgzMTAyNDg5MTA0MzkwMA.GUrGSp.MxYVARnk9iFRtF_dyxVqZ2yurOjNSXquDbsgkg")
+# Launch the bot and receipt the token in file
+file = open('token.txt', 'r+')
+token = file.readlines()[0]
+
+bot.run(token)
