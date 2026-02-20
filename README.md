@@ -49,7 +49,7 @@ Site / Documentation :
 
 ---
 
-## 🧠 Fonctionnement Interne (ce qui rend le projet “pro”)
+## 🧠 Fonctionnement Interne 
 * **Architecture modulaire** : chaque domaine est isolé (admin, fun, rôles, vocal).
 * **Chargement automatique des modules** au démarrage.
 * **Configuration validée** : le bot lit `config.json` et vérifie les champs et types.
