@@ -1,7 +1,7 @@
 # 🤖 Projet NSI BOT DISCORD : Bot Discord Modulaire (Python)
 
 ## 📌 Présentation du Projet
-Ce projet est un bot Discord développé en Python avec **discord.py 2.x**.  
+Ce projet est un bot Discord développé en Python avec **discord.py**.  
 L’objectif est de proposer un bot **simple, stable et propre** : une architecture modulaire, une configuration validée au démarrage, des logs clairs, et des commandes utiles pour un serveur.
 
 Le dépôt inclut aussi un **site web de présentation + documentation**, hébergé via **GitHub Pages**.
